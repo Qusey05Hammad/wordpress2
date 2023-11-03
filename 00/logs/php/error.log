@@ -1,0 +1,93 @@
+[01-Nov-2023 12:51:15 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\qwert\Local Sites\00\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[01-Nov-2023 12:53:04 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Nov-2023 12:59:37 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[01-Nov-2023 12:59:37 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[01-Nov-2023 13:01:36 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:36 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:36 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:36 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $options in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:01:37 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\qwert\Local Sites\00\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2324
+[01-Nov-2023 13:09:45 UTC] Sync process for Gutenberg Blocks has started.
+[01-Nov-2023 13:09:45 UTC] CATEGORY:Importing categories..
+[01-Nov-2023 13:09:45 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[01-Nov-2023 13:09:45 UTC] CATEGORY:Completed category import.
+[01-Nov-2023 13:09:45 UTC] BLOCK: Getting Total Blocks
+[01-Nov-2023 13:09:45 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[01-Nov-2023 13:09:46 UTC] BLOCK: Requests count 4
+[01-Nov-2023 13:09:46 UTC] BLOCK: Importing request 1 ..
+[01-Nov-2023 13:09:46 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[01-Nov-2023 13:09:46 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[01-Nov-2023 13:09:46 UTC] BLOCK: Completed request 1
+[01-Nov-2023 13:09:46 UTC] BLOCK: Importing request 2 ..
+[01-Nov-2023 13:09:46 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[01-Nov-2023 13:09:46 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[01-Nov-2023 13:09:46 UTC] BLOCK: Completed request 2
+[01-Nov-2023 13:09:46 UTC] BLOCK: Importing request 3 ..
+[01-Nov-2023 13:09:46 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[01-Nov-2023 13:09:46 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[01-Nov-2023 13:09:46 UTC] BLOCK: Completed request 3
+[01-Nov-2023 13:09:46 UTC] BLOCK: Importing request 4 ..
+[01-Nov-2023 13:09:46 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[01-Nov-2023 13:09:47 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[01-Nov-2023 13:09:47 UTC] BLOCK: Completed request 4
+[01-Nov-2023 13:09:47 UTC] SITE: Getting Total Sites
+[01-Nov-2023 13:09:47 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[01-Nov-2023 13:09:47 UTC] SITE: Request count 2
+[01-Nov-2023 13:09:47 UTC] SITE: Importing request 1 ..
+[01-Nov-2023 13:09:47 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[01-Nov-2023 13:09:47 UTC] SITE: Storing in option ast-block-templates-sites-1
+[01-Nov-2023 13:09:47 UTC] SITE: Completed request 1
+[01-Nov-2023 13:09:47 UTC] SITE: Importing request 2 ..
+[01-Nov-2023 13:09:47 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[01-Nov-2023 13:09:48 UTC] SITE: Storing in option ast-block-templates-sites-2
+[01-Nov-2023 13:09:48 UTC] SITE: Completed request 2
+[01-Nov-2023 13:09:48 UTC] Sync process for Gutenberg Blocks is done.
+[03-Nov-2023 07:51:04 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[03-Nov-2023 08:12:48 UTC] Sync process for Gutenberg Blocks has started.
+[03-Nov-2023 08:12:48 UTC] CATEGORY:Importing categories..
+[03-Nov-2023 08:12:48 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[03-Nov-2023 08:12:48 UTC] CATEGORY:Completed category import.
+[03-Nov-2023 08:12:48 UTC] BLOCK: Getting Total Blocks
+[03-Nov-2023 08:12:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[03-Nov-2023 08:12:48 UTC] BLOCK: Requests count 4
+[03-Nov-2023 08:12:48 UTC] BLOCK: Importing request 1 ..
+[03-Nov-2023 08:12:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[03-Nov-2023 08:12:48 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[03-Nov-2023 08:12:48 UTC] BLOCK: Completed request 1
+[03-Nov-2023 08:12:48 UTC] BLOCK: Importing request 2 ..
+[03-Nov-2023 08:12:48 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[03-Nov-2023 08:12:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[03-Nov-2023 08:12:49 UTC] BLOCK: Completed request 2
+[03-Nov-2023 08:12:49 UTC] BLOCK: Importing request 3 ..
+[03-Nov-2023 08:12:49 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[03-Nov-2023 08:12:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[03-Nov-2023 08:12:49 UTC] BLOCK: Completed request 3
+[03-Nov-2023 08:12:49 UTC] BLOCK: Importing request 4 ..
+[03-Nov-2023 08:12:49 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[03-Nov-2023 08:12:49 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[03-Nov-2023 08:12:49 UTC] BLOCK: Completed request 4
+[03-Nov-2023 08:12:49 UTC] SITE: Getting Total Sites
+[03-Nov-2023 08:12:49 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[03-Nov-2023 08:12:50 UTC] SITE: Request count 2
+[03-Nov-2023 08:12:50 UTC] SITE: Importing request 1 ..
+[03-Nov-2023 08:12:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[03-Nov-2023 08:12:50 UTC] SITE: Storing in option ast-block-templates-sites-1
+[03-Nov-2023 08:12:50 UTC] SITE: Completed request 1
+[03-Nov-2023 08:12:50 UTC] SITE: Importing request 2 ..
+[03-Nov-2023 08:12:50 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[03-Nov-2023 08:12:50 UTC] SITE: Storing in option ast-block-templates-sites-2
+[03-Nov-2023 08:12:50 UTC] SITE: Completed request 2
+[03-Nov-2023 08:12:50 UTC] Sync process for Gutenberg Blocks is done.

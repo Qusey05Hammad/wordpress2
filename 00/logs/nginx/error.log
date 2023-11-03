@@ -1,0 +1,1 @@
+2023/11/03 11:28:10 [error] 7392#16952: *9895 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:10074", host: "00.local", referrer: "http://00.local/wp-admin/edit.php?post_type=product"
